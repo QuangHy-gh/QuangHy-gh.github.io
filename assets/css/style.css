@@ -14,8 +14,8 @@ html,body{
 }
 .wrapper .button{
   display: inline-flex;
-  height: 60px;
-  width: 60px;
+  height: 55px;
+  width: 55px;
   float: left;
   margin: 0 5px;
   overflow: hidden;
@@ -35,7 +35,7 @@ html,body{
   text-align: center;
   border-radius: 50px;
   box-sizing: border-box;
-  line-height: 60px;
+  line-height: 50px;
   transition: all 0.3s ease-out;
 }
 .wrapper .button:nth-child(1):hover .icon{
@@ -50,9 +50,7 @@ html,body{
 .wrapper .button:nth-child(4):hover .icon{
   background: #333;
 }
-.wrapper .button:nth-child(5):hover .icon{
-  background: #ff0000;
-}
+
 .wrapper .button .icon i{
   font-size: 25px;
   line-height: 60px;
@@ -79,7 +77,4 @@ html,body{
 }
 .wrapper .button:nth-child(4) span{
   color: #333;
-}
-.wrapper .button:nth-child(5) span{
-  color: #ff0000;
 }
